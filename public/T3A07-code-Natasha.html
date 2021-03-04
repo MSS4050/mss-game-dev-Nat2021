@@ -1,0 +1,14 @@
+<h1 align=center>T3A07-code-Natasha.html</h1>
+
+What we're gonna do is take CSS positioning and Forms button and make something move across the screen.<br>
+
+<input type=button value="Move 10 Pixels Right" onClick="{
+   // alert(   parseInt(document.getElementById('mySpan01').style.left)   )
+
+    document.getElementById('mySpan01').style.left =
+      parseInt(document.getElementById('mySpan01').style.left) + 10
+
+}">
+
+<span id="mySpan01" style="position:absolute; width:42; height:20; left:100; top:150;"> Span 1</span><br>
+<span id="mySpan02" style="position:absolute; width:42; height:20; left:200; top:150;"> Span 2</span><br>
